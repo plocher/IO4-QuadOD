@@ -289,7 +289,7 @@ Com</text>
 <text x="103.7" y="52" size="1.016" layer="47" rot="R90">mm</text>
 </package>
 <package name="MSTBA2">
-<description>&lt;b&gt;PHOENIX&lt;/b&gt;</description>
+<description>PHOENIX</description>
 <wire x1="-6.096" y1="7.112" x2="-6.096" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-6.096" y1="7.112" x2="-3.175" y2="7.112" width="0.1524" layer="21"/>
 <wire x1="-3.175" y1="7.112" x2="-1.905" y2="7.112" width="0.1524" layer="51"/>
@@ -365,28 +365,24 @@ Com</text>
 <text x="-4.826" y="1.778" size="1.4224" layer="49">6</text>
 </package>
 <package name="DCJ0202">
-<description>&lt;b&gt;DC POWER JACK&lt;/b&gt;&lt;p&gt;
+<description>DC POWER JACK
 Source: DCJ0202.pdf</description>
-<wire x1="-4.3" y1="-10.4" x2="4.3" y2="-10.4" width="0.2032" layer="21"/>
-<wire x1="4.3" y1="-10.4" x2="4.3" y2="3.9" width="0.2032" layer="51"/>
-<wire x1="4.3" y1="3.9" x2="-4.3" y2="3.9" width="0.2032" layer="51"/>
-<wire x1="-4.3" y1="3.9" x2="-4.3" y2="-10.4" width="0.2032" layer="21"/>
 <wire x1="-2.7" y1="3.9" x2="-4.3" y2="3.9" width="0.2032" layer="21"/>
 <wire x1="4.3" y1="3.9" x2="2.7" y2="3.9" width="0.2032" layer="21"/>
-<wire x1="-3" y1="-10.275" x2="-3" y2="-3" width="0.2032" layer="51" style="shortdash"/>
-<wire x1="3" y1="-10.3" x2="3" y2="-3" width="0.2032" layer="51" style="shortdash"/>
+<wire x1="-3" y1="-10.275" x2="-3" y2="-3" width="0.2032" layer="21" style="shortdash"/>
+<wire x1="3" y1="-10.3" x2="3" y2="-3" width="0.2032" layer="21" style="shortdash"/>
 <wire x1="3" y1="-3" x2="-3" y2="-3" width="0.2032" layer="51" style="shortdash"/>
-<wire x1="-0.9" y1="-9" x2="-0.9" y2="-4.5" width="0.2032" layer="51" style="shortdash"/>
-<wire x1="0.9" y1="-9" x2="0.9" y2="-4.5" width="0.2032" layer="51" style="shortdash"/>
-<wire x1="-0.9" y1="-9" x2="0.9" y2="-9" width="0.2032" layer="51" curve="166.57811"/>
-<wire x1="4.3" y1="-10.4" x2="4.3" y2="-2.45" width="0.2032" layer="21"/>
-<wire x1="4.3" y1="2.3" x2="4.3" y2="3.9" width="0.2032" layer="21"/>
-<wire x1="-4.3" y1="3.9" x2="-4.3" y2="-10.4" width="0.2032" layer="51"/>
-<wire x1="-4.3" y1="-10.4" x2="4.3" y2="-10.4" width="0.2032" layer="51"/>
+<wire x1="-0.9" y1="-9" x2="-0.9" y2="-5.588" width="0.2032" layer="21" style="shortdash"/>
+<wire x1="0.9" y1="-9" x2="0.9" y2="-5.588" width="0.2032" layer="21" style="shortdash"/>
+<wire x1="-0.9" y1="-9" x2="0.9" y2="-9" width="0.2032" layer="21" curve="166.57811"/>
+<wire x1="4.3" y1="-10.4" x2="4.3" y2="-2.54" width="0.2032" layer="21"/>
+<wire x1="4.3" y1="2.54" x2="4.3" y2="3.9" width="0.2032" layer="21"/>
+<wire x1="-4.3" y1="3.9" x2="-4.3" y2="-10.4" width="0.2032" layer="21"/>
+<wire x1="-4.3" y1="-10.4" x2="4.3" y2="-10.4" width="0.2032" layer="21"/>
 <pad name="1" x="0" y="3.175" drill="3.1" diameter="4.5" shape="octagon"/>
 <pad name="3" x="0" y="-3.175" drill="3.1" diameter="4.7"/>
 <pad name="2" x="4.7625" y="0" drill="3.1" diameter="4.7"/>
-<text x="-3.81" y="5.08" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.08" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="-5.08" y="-10.16" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 </package>
 <package name="SCREWTERMINAL-5MM-3">
@@ -457,7 +453,7 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <wire x1="12.7" y1="16.51" x2="12.7" y2="12.7" width="0.127" layer="21"/>
 <wire x1="12.7" y1="12.7" x2="12.7" y2="-17.78" width="0.127" layer="21"/>
 <wire x1="12.7" y1="-17.78" x2="-10.16" y2="-17.78" width="0.127" layer="21"/>
-<text x="-7.62" y="-16.51" size="1.27" layer="51" rot="R90">Reset</text>
+<text x="-7.62" y="-16.51" size="1.27" layer="21" font="vector" rot="R90">Reset</text>
 <wire x1="-12.7" y1="12.7" x2="12.7" y2="12.7" width="0.127" layer="21"/>
 <text x="3.81" y="16.51" size="1.27" layer="25" rot="SR180">&gt;NAME</text>
 <wire x1="-8.89" y1="12.7" x2="8.89" y2="12.7" width="0.127" layer="40"/>
@@ -488,18 +484,18 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <text x="9.525" y="-6.985" size="1.27" layer="21" rot="SR180">5v0</text>
 </package>
 <package name="I2C-L">
-<wire x1="-6.35" y1="0.508" x2="-6.35" y2="-13.97" width="0.381" layer="21"/>
-<wire x1="6.35" y1="0.508" x2="6.35" y2="-13.97" width="0.381" layer="21"/>
-<wire x1="6.35" y1="-13.97" x2="-6.35" y2="-13.97" width="0.381" layer="21"/>
-<text x="5.08" y="-12.7" size="1.6764" layer="51" rot="SR90">I2C</text>
-<text x="4.445" y="1.905" size="1.016" layer="51" rot="R90">gnd</text>
-<text x="-0.635" y="1.905" size="1.016" layer="51" rot="R90">SDA</text>
-<text x="-3.175" y="1.905" size="1.016" layer="51" rot="R90">SCL</text>
-<text x="1.905" y="1.905" size="1.016" layer="51" rot="R90">V+</text>
-<pad name="GND" x="3.81" y="-0.127" drill="0.8" shape="octagon"/>
-<pad name="V+" x="1.27" y="0.127" drill="0.8"/>
-<pad name="SDA" x="-1.27" y="-0.127" drill="0.8"/>
-<pad name="SCL" x="-3.81" y="0.127" drill="0.8"/>
+<wire x1="-6.35" y1="1.778" x2="-6.35" y2="-13.97" width="0.381" layer="43"/>
+<wire x1="6.35" y1="1.778" x2="6.35" y2="-13.97" width="0.381" layer="43"/>
+<wire x1="6.35" y1="-13.97" x2="-6.35" y2="-13.97" width="0.381" layer="43"/>
+<text x="-1.27" y="-13.335" size="1.4224" layer="21" rot="SR0">I2C</text>
+<text x="5.715" y="2.54" size="1.016" layer="21" rot="R180">gnd</text>
+<text x="0" y="2.54" size="1.016" layer="21" rot="R180">SDA</text>
+<text x="-3.175" y="2.54" size="1.016" layer="21" rot="R180">SCL</text>
+<text x="2.54" y="2.54" size="1.016" layer="21" rot="R180">V+</text>
+<pad name="GND" x="3.81" y="-0.127" drill="0.9" shape="square"/>
+<pad name="V+" x="1.27" y="0.127" drill="0.9"/>
+<pad name="SDA" x="-1.27" y="-0.127" drill="0.9"/>
+<pad name="SCL" x="-3.81" y="0.127" drill="0.9"/>
 <wire x1="2.2" y1="-1.635" x2="-2" y2="-1.635" width="0.254" layer="21"/>
 <wire x1="-2" y1="-1.635" x2="-2" y2="-3.635" width="0.254" layer="21"/>
 <wire x1="-2" y1="-9.835" x2="-2" y2="-11.635" width="0.254" layer="21"/>
@@ -530,10 +526,11 @@ Source: http://www.molex.com/pdm_docs/sd/026604100_sd.pdf</description>
 <pad name="GND@1" x="0.254" y="-9.635" drill="0.8" diameter="1.27" rot="R270"/>
 <text x="-7.112" y="-13.716" size="0.889" layer="25" font="vector" ratio="11" rot="R90">&gt;NAME</text>
 <text x="-7.112" y="-6.731" size="0.635" layer="27" font="vector" ratio="10" rot="R90">&gt;VALUE</text>
-<text x="-3" y="-3.635" size="1.016" layer="51" rot="R180">SCL</text>
-<text x="-3" y="-5.635" size="1.016" layer="51" rot="R180">SDA</text>
-<text x="-3" y="-7.635" size="1.016" layer="51" rot="R180">V+</text>
-<text x="-3" y="-9.635" size="1.016" layer="51" rot="R180">gnd</text>
+<text x="-3" y="-3.635" size="1.016" layer="21" rot="R180">SCL</text>
+<text x="-3" y="-5.635" size="1.016" layer="21" rot="R180">SDA</text>
+<text x="-3" y="-7.635" size="1.016" layer="21" rot="R180">V+</text>
+<text x="-3" y="-9.635" size="1.016" layer="21" rot="R180">gnd</text>
+<wire x1="6.35" y1="1.905" x2="-6.35" y2="1.905" width="0.381" layer="43"/>
 </package>
 <package name="MOUNTINGHOLE">
 <hole x="0" y="0" drill="3.6"/>
@@ -733,8 +730,8 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="BOARD1" library="SPCoast" package="BOARD-SEEED10X10-NOHOLES" value="BOARD100X100-NOHOLES" x="0" y="0" smashed="yes"/>
-<element name="DCCIN" library="SPCoast" package="MSTBA2" value="MSTBA2" x="15.24" y="88.265" smashed="yes" rot="R180">
+<element name="BOARD1" library="SPCoast" package="BOARD-SEEED10X10-NOHOLES" value="BOARD" x="0" y="0" smashed="yes"/>
+<element name="DCCIN" library="SPCoast" package="MSTBA2" value="0.200" x="15.24" y="88.265" smashed="yes" rot="R180">
 <attribute name="MF" value="FARNELL" x="15.24" y="88.265" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="71C4161" x="15.24" y="88.265" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="1757242" x="15.24" y="88.265" size="1.778" layer="27" rot="R180" display="off"/>
@@ -742,7 +739,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="19.431" y="91.948" size="1.778" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="20.32" y="88.265" size="1.778" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="TK1" library="SPCoast" package="MSTBA2" value="MSTBA2" x="31.75" y="88.265" smashed="yes" rot="R180">
+<element name="TK1" library="SPCoast" package="MSTBA2" value="0.200" x="31.75" y="88.265" smashed="yes" rot="R180">
 <attribute name="MF" value="FARNELL" x="31.75" y="88.265" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="71C4161" x="31.75" y="88.265" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="1757242" x="31.75" y="88.265" size="1.778" layer="27" rot="R180" display="off"/>
@@ -750,7 +747,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="34.036" y="92.075" size="1.778" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="36.83" y="88.265" size="1.778" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="TK2" library="SPCoast" package="MSTBA2" value="MSTBA2" x="49.53" y="88.265" smashed="yes" rot="R180">
+<element name="TK2" library="SPCoast" package="MSTBA2" value="0.200" x="49.53" y="88.265" smashed="yes" rot="R180">
 <attribute name="MF" value="FARNELL" x="49.53" y="88.265" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="71C4161" x="49.53" y="88.265" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="1757242" x="49.53" y="88.265" size="1.778" layer="27" rot="R180" display="off"/>
@@ -758,7 +755,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="51.308" y="92.075" size="1.778" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="54.61" y="88.265" size="1.778" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="TK3" library="SPCoast" package="MSTBA2" value="MSTBA2" x="67.31" y="88.265" smashed="yes" rot="R180">
+<element name="TK3" library="SPCoast" package="MSTBA2" value="0.200" x="67.31" y="88.265" smashed="yes" rot="R180">
 <attribute name="MF" value="FARNELL" x="67.31" y="88.265" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="71C4161" x="67.31" y="88.265" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="1757242" x="67.31" y="88.265" size="1.778" layer="27" rot="R180" display="off"/>
@@ -766,7 +763,7 @@ design rules under a new name.</description>
 <attribute name="NAME" x="69.088" y="92.075" size="1.778" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="72.39" y="88.265" size="1.778" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="TK4" library="SPCoast" package="MSTBA2" value="MSTBA2" x="85.09" y="88.265" smashed="yes" rot="R180">
+<element name="TK4" library="SPCoast" package="MSTBA2" value="0.200" x="85.09" y="88.265" smashed="yes" rot="R180">
 <attribute name="MF" value="FARNELL" x="85.09" y="88.265" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="71C4161" x="85.09" y="88.265" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="1757242" x="85.09" y="88.265" size="1.778" layer="27" rot="R180" display="off"/>
@@ -774,11 +771,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="87.249" y="92.075" size="1.778" layer="25" font="vector" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="90.17" y="88.265" size="1.778" layer="27" font="vector" ratio="10" rot="R180"/>
 </element>
-<element name="IO4-SLAVE" library="SPCoast" package="RJ25-INVERTED" value="RJ12-INV" x="52.07" y="10.795" smashed="yes">
+<element name="IO4-SLAVE" library="SPCoast" package="RJ25-INVERTED" value="RJ12/6" x="52.07" y="10.795" smashed="yes">
 <attribute name="NAME" x="45.085" y="2.159" size="1.778" layer="25" font="vector"/>
 <attribute name="VALUE" x="45.847" y="-2.54" size="1.778" layer="27" font="vector"/>
 </element>
-<element name="IO4-MASTER" library="SPCoast" package="RJ25-INVERTED" value="RJ12-INV" x="70.485" y="10.795" smashed="yes">
+<element name="IO4-MASTER" library="SPCoast" package="RJ25-INVERTED" value="RJ12/6" x="70.485" y="10.795" smashed="yes">
 <attribute name="NAME" x="62.23" y="2.159" size="1.778" layer="25" font="vector"/>
 <attribute name="VALUE" x="63.627" y="-2.54" size="1.778" layer="27" font="vector"/>
 </element>
@@ -818,11 +815,11 @@ design rules under a new name.</description>
 <attribute name="NAME" x="85.725" y="63.125" size="1.27" layer="25" font="vector"/>
 <attribute name="VALUE" x="85.725" y="46.095" size="1.27" layer="27"/>
 </element>
-<element name="MCU" library="SPCoast" package="WEMOS-D1" value="Mini" x="29.21" y="13.97" smashed="yes">
+<element name="MCU" library="SPCoast" package="WEMOS-D1" value="Mini-R2" x="29.21" y="13.97" smashed="yes">
 <attribute name="NAME" x="30.48" y="30.48" size="1.27" layer="25" font="vector" rot="SR180"/>
 <attribute name="VALUE" x="40.64" y="-1.27" size="1.27" layer="27" rot="SR180"/>
 </element>
-<element name="CON9" library="SPCoast" package="I2C-L" value="CONNECTOR-I2CLEFT" x="8.89" y="26.035" smashed="yes">
+<element name="CON9" library="SPCoast" package="I2C-L" value="" x="8.89" y="26.035" smashed="yes">
 <attribute name="NAME" x="-1.397" y="18.034" size="0.889" layer="25" font="vector" ratio="11" rot="R90"/>
 <attribute name="VALUE" x="-2.032" y="15.494" size="0.635" layer="27" font="vector" ratio="10" rot="R90"/>
 </element>
